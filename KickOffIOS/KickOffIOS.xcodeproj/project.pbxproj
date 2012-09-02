@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842725A915EFB77400AEFEA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842725A815EFB77400AEFEA8 /* UIKit.framework */; };
+		842725AB15EFB77400AEFEA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842725AA15EFB77400AEFEA8 /* Foundation.framework */; };
+		842725AD15EFB77400AEFEA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842725AC15EFB77400AEFEA8 /* CoreGraphics.framework */; };
+		842725B315EFB77400AEFEA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842725B115EFB77400AEFEA8 /* InfoPlist.strings */; };
+		842725B515EFB77400AEFEA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842725B415EFB77400AEFEA8 /* main.m */; };
+		842725B915EFB77400AEFEA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842725B815EFB77400AEFEA8 /* AppDelegate.m */; };
+		842725C815EFB82200AEFEA8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 842725C115EFB82200AEFEA8 /* README.txt */; };
+		842725CD15EFB9C700AEFEA8 /* UIButton+KAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 842725CC15EFB9C700AEFEA8 /* UIButton+KAddition.m */; };
+		842725DD15F0928F00AEFEA8 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842725DC15F0928F00AEFEA8 /* DemoViewController.m */; };
+		842725E115F0946300AEFEA8 /* assad-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 842725E015F0946300AEFEA8 /* assad-hd.png */; };
+		8451623315F242390098A99C /* KUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451623215F242390098A99C /* KUIButton.m */; };
+		8451623615F247C60098A99C /* UIAlertView+KAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451623515F247C60098A99C /* UIAlertView+KAddition.m */; };
+		8451623915F24A090098A99C /* KUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451623815F24A090098A99C /* KUIAlertView.m */; };
+		8451623F15F2549F0098A99C /* UIView+KAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451623E15F2549F0098A99C /* UIView+KAddition.m */; };
+		8451624215F259AD0098A99C /* UIActionSheet+KAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451624115F259AC0098A99C /* UIActionSheet+KAddition.m */; };
+		8451624515F25A670098A99C /* UIActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451624415F25A670098A99C /* UIActionSheetItem.m */; };
+		8451625915F2FFA40098A99C /* KUIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451625815F2FFA30098A99C /* KUIActionSheet.m */; };
+		8478B91215F37EFE00E42CFD /* UILabel+KAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842725A415EFB77400AEFEA8 /* KickOffIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickOffIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842725A815EFB77400AEFEA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		842725AA15EFB77400AEFEA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		842725AC15EFB77400AEFEA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		842725B015EFB77400AEFEA8 /* KickOffIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KickOffIOS-Info.plist"; sourceTree = "<group>"; };
+		842725B215EFB77400AEFEA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		842725B415EFB77400AEFEA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842725B615EFB77400AEFEA8 /* KickOffIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KickOffIOS-Prefix.pch"; sourceTree = "<group>"; };
+		842725B715EFB77400AEFEA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842725B815EFB77400AEFEA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842725C115EFB82200AEFEA8 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		842725C215EFB82200AEFEA8 /* KGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGlobal.h; sourceTree = "<group>"; };
+		842725C315EFB82200AEFEA8 /* KMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMacros.h; sourceTree = "<group>"; };
+		842725CB15EFB9C700AEFEA8 /* UIButton+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KAddition.h"; sourceTree = "<group>"; };
+		842725CC15EFB9C700AEFEA8 /* UIButton+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KAddition.m"; sourceTree = "<group>"; };
+		842725DB15F0928F00AEFEA8 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		842725DC15F0928F00AEFEA8 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		842725E015F0946300AEFEA8 /* assad-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "assad-hd.png"; sourceTree = "<group>"; };
+		8451623115F242390098A99C /* KUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUIButton.h; sourceTree = "<group>"; };
+		8451623215F242390098A99C /* KUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUIButton.m; sourceTree = "<group>"; };
+		8451623415F247C60098A99C /* UIAlertView+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+KAddition.h"; sourceTree = "<group>"; };
+		8451623515F247C60098A99C /* UIAlertView+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+KAddition.m"; sourceTree = "<group>"; };
+		8451623715F24A090098A99C /* KUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUIAlertView.h; sourceTree = "<group>"; };
+		8451623815F24A090098A99C /* KUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUIAlertView.m; sourceTree = "<group>"; };
+		8451623A15F2504A0098A99C /* UIAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAddition.h; sourceTree = "<group>"; };
+		8451623D15F2549E0098A99C /* UIView+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KAddition.h"; sourceTree = "<group>"; };
+		8451623E15F2549F0098A99C /* UIView+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KAddition.m"; sourceTree = "<group>"; };
+		8451624015F259AC0098A99C /* UIActionSheet+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+KAddition.h"; sourceTree = "<group>"; };
+		8451624115F259AC0098A99C /* UIActionSheet+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+KAddition.m"; sourceTree = "<group>"; };
+		8451624315F25A670098A99C /* UIActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActionSheetItem.h; sourceTree = "<group>"; };
+		8451624415F25A670098A99C /* UIActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActionSheetItem.m; sourceTree = "<group>"; };
+		8451625715F2FFA20098A99C /* KUIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUIActionSheet.h; sourceTree = "<group>"; };
+		8451625815F2FFA30098A99C /* KUIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUIActionSheet.m; sourceTree = "<group>"; };
+		8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KAddition.h"; sourceTree = "<group>"; };
+		8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KAddition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842725A115EFB77300AEFEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842725A915EFB77400AEFEA8 /* UIKit.framework in Frameworks */,
+				842725AB15EFB77400AEFEA8 /* Foundation.framework in Frameworks */,
+				842725AD15EFB77400AEFEA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8427259915EFB77300AEFEA8 = {
+			isa = PBXGroup;
+			children = (
+				842725BF15EFB82200AEFEA8 /* include */,
+				842725AE15EFB77400AEFEA8 /* KickOffIOS */,
+				842725A715EFB77400AEFEA8 /* Frameworks */,
+				842725A515EFB77400AEFEA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842725A515EFB77400AEFEA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842725A415EFB77400AEFEA8 /* KickOffIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842725A715EFB77400AEFEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842725A815EFB77400AEFEA8 /* UIKit.framework */,
+				842725AA15EFB77400AEFEA8 /* Foundation.framework */,
+				842725AC15EFB77400AEFEA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842725AE15EFB77400AEFEA8 /* KickOffIOS */ = {
+			isa = PBXGroup;
+			children = (
+				842725B715EFB77400AEFEA8 /* AppDelegate.h */,
+				842725B815EFB77400AEFEA8 /* AppDelegate.m */,
+				842725AF15EFB77400AEFEA8 /* Supporting Files */,
+				842725DB15F0928F00AEFEA8 /* DemoViewController.h */,
+				842725DC15F0928F00AEFEA8 /* DemoViewController.m */,
+			);
+			path = KickOffIOS;
+			sourceTree = "<group>";
+		};
+		842725AF15EFB77400AEFEA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842725B015EFB77400AEFEA8 /* KickOffIOS-Info.plist */,
+				842725B115EFB77400AEFEA8 /* InfoPlist.strings */,
+				842725B415EFB77400AEFEA8 /* main.m */,
+				842725E015F0946300AEFEA8 /* assad-hd.png */,
+				842725B615EFB77400AEFEA8 /* KickOffIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842725BF15EFB82200AEFEA8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				842725C015EFB82200AEFEA8 /* CoreAddition */,
+				842725C215EFB82200AEFEA8 /* KGlobal.h */,
+				842725C315EFB82200AEFEA8 /* KMacros.h */,
+				842725C415EFB82200AEFEA8 /* StyleSystem */,
+				842725C615EFB82200AEFEA8 /* UIAddition */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		842725C015EFB82200AEFEA8 /* CoreAddition */ = {
+			isa = PBXGroup;
+			children = (
+				842725C115EFB82200AEFEA8 /* README.txt */,
+			);
+			path = CoreAddition;
+			sourceTree = "<group>";
+		};
+		842725C415EFB82200AEFEA8 /* StyleSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StyleSystem;
+			sourceTree = "<group>";
+		};
+		842725C615EFB82200AEFEA8 /* UIAddition */ = {
+			isa = PBXGroup;
+			children = (
+				8451623A15F2504A0098A99C /* UIAddition.h */,
+				842725CB15EFB9C700AEFEA8 /* UIButton+KAddition.h */,
+				842725CC15EFB9C700AEFEA8 /* UIButton+KAddition.m */,
+				8451623115F242390098A99C /* KUIButton.h */,
+				8451623215F242390098A99C /* KUIButton.m */,
+				8451623415F247C60098A99C /* UIAlertView+KAddition.h */,
+				8451623515F247C60098A99C /* UIAlertView+KAddition.m */,
+				8451623715F24A090098A99C /* KUIAlertView.h */,
+				8451623815F24A090098A99C /* KUIAlertView.m */,
+				8451623D15F2549E0098A99C /* UIView+KAddition.h */,
+				8451623E15F2549F0098A99C /* UIView+KAddition.m */,
+				8451624015F259AC0098A99C /* UIActionSheet+KAddition.h */,
+				8451624115F259AC0098A99C /* UIActionSheet+KAddition.m */,
+				8451624315F25A670098A99C /* UIActionSheetItem.h */,
+				8451624415F25A670098A99C /* UIActionSheetItem.m */,
+				8451625715F2FFA20098A99C /* KUIActionSheet.h */,
+				8451625815F2FFA30098A99C /* KUIActionSheet.m */,
+				8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */,
+				8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */,
+			);
+			path = UIAddition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842725A315EFB77300AEFEA8 /* KickOffIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842725BC15EFB77400AEFEA8 /* Build configuration list for PBXNativeTarget "KickOffIOS" */;
+			buildPhases = (
+				842725A015EFB77300AEFEA8 /* Sources */,
+				842725A115EFB77300AEFEA8 /* Frameworks */,
+				842725A215EFB77300AEFEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KickOffIOS;
+			productName = KickOffIOS;
+			productReference = 842725A415EFB77400AEFEA8 /* KickOffIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8427259B15EFB77300AEFEA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Baidu;
+			};
+			buildConfigurationList = 8427259E15EFB77300AEFEA8 /* Build configuration list for PBXProject "KickOffIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8427259915EFB77300AEFEA8;
+			productRefGroup = 842725A515EFB77400AEFEA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842725A315EFB77300AEFEA8 /* KickOffIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842725A215EFB77300AEFEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842725B315EFB77400AEFEA8 /* InfoPlist.strings in Resources */,
+				842725C815EFB82200AEFEA8 /* README.txt in Resources */,
+				842725E115F0946300AEFEA8 /* assad-hd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842725A015EFB77300AEFEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842725B515EFB77400AEFEA8 /* main.m in Sources */,
+				842725B915EFB77400AEFEA8 /* AppDelegate.m in Sources */,
+				842725CD15EFB9C700AEFEA8 /* UIButton+KAddition.m in Sources */,
+				842725DD15F0928F00AEFEA8 /* DemoViewController.m in Sources */,
+				8451623315F242390098A99C /* KUIButton.m in Sources */,
+				8451623615F247C60098A99C /* UIAlertView+KAddition.m in Sources */,
+				8451623915F24A090098A99C /* KUIAlertView.m in Sources */,
+				8451623F15F2549F0098A99C /* UIView+KAddition.m in Sources */,
+				8451624215F259AD0098A99C /* UIActionSheet+KAddition.m in Sources */,
+				8451624515F25A670098A99C /* UIActionSheetItem.m in Sources */,
+				8451625915F2FFA40098A99C /* KUIActionSheet.m in Sources */,
+				8478B91215F37EFE00E42CFD /* UILabel+KAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842725B115EFB77400AEFEA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842725B215EFB77400AEFEA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842725BA15EFB77400AEFEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842725BB15EFB77400AEFEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842725BD15EFB77400AEFEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KickOffIOS/KickOffIOS-Prefix.pch";
+				INFOPLIST_FILE = "KickOffIOS/KickOffIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		842725BE15EFB77400AEFEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KickOffIOS/KickOffIOS-Prefix.pch";
+				INFOPLIST_FILE = "KickOffIOS/KickOffIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8427259E15EFB77300AEFEA8 /* Build configuration list for PBXProject "KickOffIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842725BA15EFB77400AEFEA8 /* Debug */,
+				842725BB15EFB77400AEFEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842725BC15EFB77400AEFEA8 /* Build configuration list for PBXNativeTarget "KickOffIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842725BD15EFB77400AEFEA8 /* Debug */,
+				842725BE15EFB77400AEFEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8427259B15EFB77300AEFEA8 /* Project object */;
+}
