@@ -1,23 +1,21 @@
 //
 //  AppDelegate.m
-//  KickOffIOS
+//  Demo
 //
-//  Created by guoyu wang on 12-8-30.
-//  Copyright (c) 2012年 Baidu. All rights reserved.
+//  Created by Aiyoo on 12-9-7.
+//  Copyright (c) 2012年 kickoff. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "DemoViewController.h"
 @implementation AppDelegate
-
-@synthesize window = _window;
-@synthesize demovc = _demovc;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    _demovc = [[DemoViewController alloc] initWithStyle:UITableViewStylePlain];
-    self.window.rootViewController = _demovc;
+    // Override point for customization after application launch.
+    self.viewController = [[DemoViewController alloc] initWithStyle:UITableViewStylePlain];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

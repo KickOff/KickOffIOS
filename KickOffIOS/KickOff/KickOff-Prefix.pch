@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'KickOff' target in the 'KickOff' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#import "KickOff.h"
+#endif
