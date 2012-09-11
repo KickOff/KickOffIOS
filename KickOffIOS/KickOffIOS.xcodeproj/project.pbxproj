@@ -30,6 +30,7 @@
 		8418918815FA019600FBCE77 /* UILabel+KAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */; };
 		D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */; };
 		D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340B415FF1048008DBE84 /* NSObject+Additions.m */; };
+		D3E340B815FF120B008DBE84 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340B715FF120A008DBE84 /* NSData+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,8 @@
 		D3E340B115FF1006008DBE84 /* Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzle.h; sourceTree = "<group>"; };
 		D3E340B315FF1048008DBE84 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
 		D3E340B415FF1048008DBE84 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		D3E340B615FF120A008DBE84 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		D3E340B715FF120A008DBE84 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				D3E340B415FF1048008DBE84 /* NSObject+Additions.m */,
 				D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */,
 				D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */,
+				D3E340B615FF120A008DBE84 /* NSData+Additions.h */,
+				D3E340B715FF120A008DBE84 /* NSData+Additions.m */,
 			);
 			path = CoreAddition;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 				8418917E15FA016D00FBCE77 /* UILabel+KAddition.m in Sources */,
 				D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */,
 				D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */,
+				D3E340B815FF120B008DBE84 /* NSData+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KickOff/KickOff-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -295,6 +305,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KickOff/KickOff-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
