@@ -29,6 +29,7 @@
 		8418918715FA019600FBCE77 /* KUIActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8451625715F2FFA20098A99C /* KUIActionSheet.h */; };
 		8418918815FA019600FBCE77 /* UILabel+KAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */; };
 		D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */; };
+		D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340B415FF1048008DBE84 /* NSObject+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,10 @@
 		8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KAddition.m"; sourceTree = "<group>"; };
 		D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		D3E340B015FF1006008DBE84 /* Swizzle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swizzle.c; sourceTree = "<group>"; };
+		D3E340B115FF1006008DBE84 /* Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzle.h; sourceTree = "<group>"; };
+		D3E340B315FF1048008DBE84 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		D3E340B415FF1048008DBE84 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				842725C115EFB82200AEFEA8 /* README.txt */,
+				D3E340B115FF1006008DBE84 /* Swizzle.h */,
+				D3E340B015FF1006008DBE84 /* Swizzle.c */,
+				D3E340B315FF1048008DBE84 /* NSObject+Additions.h */,
+				D3E340B415FF1048008DBE84 /* NSObject+Additions.m */,
 				D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */,
 				D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */,
 			);
@@ -253,6 +262,7 @@
 				8418917D15FA016D00FBCE77 /* KUIActionSheet.m in Sources */,
 				8418917E15FA016D00FBCE77 /* UILabel+KAddition.m in Sources */,
 				D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */,
+				D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
