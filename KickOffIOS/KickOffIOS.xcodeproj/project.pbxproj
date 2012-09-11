@@ -28,6 +28,7 @@
 		8418918615FA019600FBCE77 /* UIActionSheetItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8451624315F25A670098A99C /* UIActionSheetItem.h */; };
 		8418918715FA019600FBCE77 /* KUIActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8451625715F2FFA20098A99C /* KUIActionSheet.h */; };
 		8418918815FA019600FBCE77 /* UILabel+KAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */; };
+		D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,8 @@
 		8451625815F2FFA30098A99C /* KUIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUIActionSheet.m; sourceTree = "<group>"; };
 		8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KAddition.h"; sourceTree = "<group>"; };
 		8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KAddition.m"; sourceTree = "<group>"; };
+		D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				842725C115EFB82200AEFEA8 /* README.txt */,
+				D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */,
+				D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */,
 			);
 			path = CoreAddition;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				8418917C15FA016D00FBCE77 /* UIActionSheetItem.m in Sources */,
 				8418917D15FA016D00FBCE77 /* KUIActionSheet.m in Sources */,
 				8418917E15FA016D00FBCE77 /* UILabel+KAddition.m in Sources */,
+				D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +346,7 @@
 				8418917315FA013000FBCE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8427259E15EFB77300AEFEA8 /* Build configuration list for PBXProject "KickOffIOS" */ = {
 			isa = XCConfigurationList;

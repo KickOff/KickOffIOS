@@ -17,3 +17,7 @@ profile
 include/.DS_Store
 
 .DS_Store
+
+Demo/build/
+KickOffIOS/build/
+
