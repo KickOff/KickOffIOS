@@ -10,6 +10,6 @@
 
 @interface NSObject (Additions)
 
-- (void)swizzleMethodFrom:(SEL)oldSEL to:(SEL)newSEL;
+- (void)exchangeMethodFrom:(SEL)oldSEL to:(SEL)newSEL;
 
 @end

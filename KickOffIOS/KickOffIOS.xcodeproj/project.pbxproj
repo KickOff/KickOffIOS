@@ -65,7 +65,7 @@
 		842725AC15EFB77400AEFEA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		842725C115EFB82200AEFEA8 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		842725C215EFB82200AEFEA8 /* KGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGlobal.h; sourceTree = "<group>"; };
-		842725C315EFB82200AEFEA8 /* KMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMacros.h; sourceTree = "<group>"; };
+		842725C315EFB82200AEFEA8 /* KMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMarcos.h; sourceTree = "<group>"; };
 		842725CB15EFB9C700AEFEA8 /* UIButton+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KAddition.h"; sourceTree = "<group>"; };
 		842725CC15EFB9C700AEFEA8 /* UIButton+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KAddition.m"; sourceTree = "<group>"; };
 		8451623115F242390098A99C /* KUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUIButton.h; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 			children = (
 				842725C015EFB82200AEFEA8 /* CoreAddition */,
 				842725C215EFB82200AEFEA8 /* KGlobal.h */,
-				842725C315EFB82200AEFEA8 /* KMacros.h */,
+				842725C315EFB82200AEFEA8 /* KMarcos.h */,
 				842725C415EFB82200AEFEA8 /* StyleSystem */,
 				842725C615EFB82200AEFEA8 /* UIAddition */,
 			);

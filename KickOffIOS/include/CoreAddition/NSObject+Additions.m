@@ -7,14 +7,16 @@
 //
 
 #import "NSObject+Additions.h"
+#include <objc/runtime.h>
 
-#include "Swizzle.h"
 
 @implementation NSObject (Additions)
 
-- (void)swizzleMethodFrom:(SEL)oldSEL to:(SEL)newSEL
+- (void)exchangeMethodFrom:(SEL)oldSEL to:(SEL)newSEL
 {
-	Swizzle([self class], oldSEL, newSEL);
+	Method oldMethod = class_getInstanceMethod([self class], oldSEL);
+    Method newMethod = class_getInstanceMethod([self class], newSEL);
+	method_exchangeImplementations(oldMethod, newMethod);
 }
 
 

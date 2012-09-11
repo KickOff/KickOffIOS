@@ -7,5 +7,5 @@
 //
 
 #import "KGlobal.h"
-#import "KMacros.h"
+#import "KMarcos.h"
 #import "UIAddition.h"
