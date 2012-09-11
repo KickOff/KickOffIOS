@@ -12,7 +12,7 @@
 
 @implementation NSObject (Additions)
 
-- (void)replaceMethodFrom:(SEL)oldSEL to:(SEL)newSEL
+- (void)swizzleMethodFrom:(SEL)oldSEL to:(SEL)newSEL
 {
 	Swizzle([self class], oldSEL, newSEL);
 }
