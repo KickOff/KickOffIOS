@@ -28,6 +28,7 @@
 		8418918615FA019600FBCE77 /* UIActionSheetItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8451624315F25A670098A99C /* UIActionSheetItem.h */; };
 		8418918715FA019600FBCE77 /* KUIActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8451625715F2FFA20098A99C /* KUIActionSheet.h */; };
 		8418918815FA019600FBCE77 /* UILabel+KAddition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */; };
+		D3BE6BCF1600630C00C5B374 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6BCE1600630C00C5B374 /* NSArray+Additions.m */; };
 		D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */; };
 		D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340B415FF1048008DBE84 /* NSObject+Additions.m */; };
 		D3E340B815FF120B008DBE84 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E340B715FF120A008DBE84 /* NSData+Additions.m */; };
@@ -85,6 +86,8 @@
 		8451625815F2FFA30098A99C /* KUIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUIActionSheet.m; sourceTree = "<group>"; };
 		8478B91015F37EFE00E42CFD /* UILabel+KAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KAddition.h"; sourceTree = "<group>"; };
 		8478B91115F37EFE00E42CFD /* UILabel+KAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KAddition.m"; sourceTree = "<group>"; };
+		D3BE6BCD1600630C00C5B374 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		D3BE6BCE1600630C00C5B374 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
 		D3E340A915FF0BF9008DBE84 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		D3E340B015FF1006008DBE84 /* Swizzle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Swizzle.c; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 				D3E340AA15FF0BF9008DBE84 /* NSString+Additions.m */,
 				D3E340B615FF120A008DBE84 /* NSData+Additions.h */,
 				D3E340B715FF120A008DBE84 /* NSData+Additions.m */,
+				D3BE6BCD1600630C00C5B374 /* NSArray+Additions.h */,
+				D3BE6BCE1600630C00C5B374 /* NSArray+Additions.m */,
 			);
 			path = CoreAddition;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				D3E340AB15FF0BF9008DBE84 /* NSString+Additions.m in Sources */,
 				D3E340B515FF1048008DBE84 /* NSObject+Additions.m in Sources */,
 				D3E340B815FF120B008DBE84 /* NSData+Additions.m in Sources */,
+				D3BE6BCF1600630C00C5B374 /* NSArray+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
