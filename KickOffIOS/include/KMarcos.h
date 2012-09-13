@@ -15,11 +15,14 @@
 #define BUNDLE(name)    [[NSBundle mainBundle] pathForResource:(name)
 
 // Components size
-#define kSizeScreenWidth         320
-#define kSizeScreenHeight        480
+#define kSizeScreenWidth         [[UIScreen mainScreen] bounds].size.width
+#define kSizeScreenHeight        [[UIScreen mainScreen] bounds].size.height
 #define kSizeNaviBarHeight       44
 #define kSizeTabBarHeight        49
 #define kSizeStatusBarHeight     20
+
+// Device detect
+#define  TARGET_iDEVICE_5 [[UIScreen mainScreen] bounds].size.height==568 //@todo need test
 
 /* color helper */
 #define RGBACOLOR(c)			\
